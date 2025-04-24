@@ -1,4 +1,4 @@
-package modulo1;
+package modulo1.semana2;
 
 public class PruebaFor {
     public static void main(String[] args) {
