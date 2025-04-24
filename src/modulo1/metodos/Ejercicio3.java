@@ -9,7 +9,9 @@ public class Ejercicio3 {
     private static String hacerVuelta(String palabra) {
         String result="";
         for (int p=palabra.length()-1;p >=0; p--){
+
             result=result+palabra.charAt(p);
+            System.out.println(result);
         }
         return result;
     }

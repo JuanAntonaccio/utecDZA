@@ -9,6 +9,7 @@ public class Factorial {
         int suma=1;
         for(int i=n; i>=2; i--){
             suma*=i;
+            System.out.println(suma);
         }
         return suma;
     }
