@@ -1,4 +1,4 @@
-package modulo2;
+package modulo2.laboratorio1;
 
 public class Estudiante {
     private String nombre;
