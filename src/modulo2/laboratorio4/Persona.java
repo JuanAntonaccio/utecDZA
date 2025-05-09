@@ -20,4 +20,8 @@ public class Persona {
         System.out.println("Nombre: " + nombre);
         System.out.println("Edad: " + edad);
     }
+
+    public void saludo(){
+        System.out.println("Hola soy una Persona");
+    }
 }

@@ -13,5 +13,9 @@ public class Doctor extends Persona {
         super.mostrarInformacion();
         System.out.println("Especialidad: " + especialidad);
     }
+    @Override
+    public void saludo(){
+        System.out.println("Hola soy un Doctor");
+    }
 }
 

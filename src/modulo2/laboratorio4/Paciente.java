@@ -13,5 +13,9 @@ public class Paciente extends Persona {
         super.mostrarInformacion();
         System.out.println("Historia Clínica N°: " + numeroHistoriaClinica);
     }
+    @Override
+    public void saludo(){
+        System.out.println("Hola soy un Paciente");
+    }
 }
 
