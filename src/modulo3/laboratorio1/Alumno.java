@@ -5,15 +5,18 @@ public class Alumno {
     private int edad;
     private byte nota;
 
+    // Construtor con los atributos
     public Alumno(String nombre, int edad, byte nota) {
         this.nombre = nombre;
         this.edad = edad;
         this.nota = nota;
     }
 
+    // Constructor vacio (sin atributos)
     public Alumno() {
     }
 
+    // getters y setters
     public String getNombre() {
         return nombre;
     }
@@ -38,9 +41,11 @@ public class Alumno {
         this.nota = nota;
     }
 
+    // Metodo toString
+
     @Override
     public String toString() {
-        return "Alumno{" +
+        return "{" +
                 "nombre='" + nombre + '\'' +
                 ", edad=" + edad +
                 ", nota=" + nota +
