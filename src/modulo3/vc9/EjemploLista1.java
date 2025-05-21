@@ -65,15 +65,20 @@ public class EjemploLista1 {
             indice++;
         }
 
+        Integer [] vector = {1,2,3,4,5};
+        List<Integer> listaNumeros = Arrays.asList(vector); // lista inmutable
+        // listaNumeros.remove(0);
+        System.out.println(listaNumeros);
 
 
-//       ArrayList<String> otra = new ArrayList<String>(Arrays.asList("pato caballo perro vaca tero".split(" ")));
-//
-//        System.out.println(otra);
-//        otra.add("gato");
-//
-//
-//
+
+       ArrayList<String> otra = new ArrayList<String>(Arrays.asList("pato caballo perro vaca tero".split(" ")));
+
+        System.out.println(otra);
+        otra.add("gato");
+
+
+
 //        Integer [] numeros = {1,2,3,4,5};
 //
 //        List<Integer> listaNumeros = Arrays.asList(numeros);
