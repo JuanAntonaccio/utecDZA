@@ -15,6 +15,7 @@ public class Principal {
 
         // Parte 2: Algoritmo de Búsqueda - Búsqueda Binaria
         int[] arregloOrdenado = {11, 12, 22, 25, 34, 64, 90};
+        //int []arregloOrdenado = {64, 34, 25, 12, 22, 11, 90};
         int valorABuscar = 34;
         System.out.println();
         System.out.println("=".repeat(80));

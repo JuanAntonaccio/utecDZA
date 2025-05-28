@@ -1,0 +1,16 @@
+@startuml
+interface Animal {
+    +hacerSonido()
+}
+
+class Perro implements Animal {
+    +hacerSonido()
+}
+
+class Gato implements Animal {
+    +hacerSonido()
+}
+
+Animal <|.. Perro
+Animal <|.. Gato
+@enduml
